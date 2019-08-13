@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import Home from './components';
+import Main from '../public/components/Main';
 
 const appEl = document.getElementById('app');
 
-ReactDOM.render(<Home />, appEl, () => {
+ReactDOM.render(<Main />, appEl, () => {
   console.log('DOM rendered.');
 });
